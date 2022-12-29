@@ -1,0 +1,167 @@
+h1, h2, h3 , h4, h5, h6, footer {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.Main-Title-and-Links {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+
+
+.Main-Title-and-Links h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.Main-Title-and-Links h1 .Hakimi{
+  color: blanchedalmond;
+}
+
+.Main-Title-and-Links div {
+  display: inline-block;
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.Main-Title-and-Links div ul {
+  list-style-type: none;
+}
+
+.Main-Title-and-Links div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 125px;
+  height: 150px;
+  width: 120px;
+}
+
+.content {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.About-Me {
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:white;
+  color: #2a607c;
+}
+
+
+.jumbotron {
+  background-color: blanchedalmond;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: #2a607c;
+  text-align: center;
+}  
+
+.Work {
+  margin: 0%;
+  background-color:#2a607c;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  padding-top: 10px;
+}
+
+.container-fluid {
+  background-color: #2a607c;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.cardContainer{
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  padding: auto;
+}
+
+.card-body {
+  background-color: blanchedalmond;
+}
+
+.card-title {
+  color: #2a607c;
+}
+
+.container-fluid-2{
+  background-color: #2a607c;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: blanchedalmond;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-height: 740px), (max-width:1000px), (orienation:landscape) {
+  p {font-size: 1.25rem;}
+}
